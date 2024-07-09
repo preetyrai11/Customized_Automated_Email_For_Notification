@@ -1,0 +1,17 @@
+Here it will automatically send emails if the 
+conditions are met.
+
+
+
+
+Google Sheets ----> Cloud ----> Gmail 
+
+Python scripts are running daily on the cloud 
+1.) Check, if conditions are met in Google Sheets 
+2.) If conditions are met, email(s) will be sent to the customer(s) 
+
+
+
+
+
+
