@@ -19,7 +19,7 @@ def load_df(url):
 
 
 print(load_df(URL)) 
-
+ 
 
 def query_data_and_send_emails(df):
     present = date.today() 
