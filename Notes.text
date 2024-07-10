@@ -1,8 +1,11 @@
 Here it will automatically send emails if the 
 conditions are met.
 
-
-
+env 
+----------
+EMAIL=preetyrai1212@gmail.com
+PASSWORD=oxdtgzvsukavunuz
+----------
 
 Google Sheets ----> Cloud ----> Gmail 
 
