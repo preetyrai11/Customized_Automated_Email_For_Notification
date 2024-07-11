@@ -18,3 +18,9 @@ https://docs.google.com/spreadsheets/d/1HhAVErz8FD_cdwTUz-Goxi0B8yC4-1qDzYv_Uqxq
 
 
 
+# Trigger email based on business logic
+for index, row in transactions.iterrows():
+    if row['expiration_date'] < pd.Timestamp.now() + pd.Timedelta(days=7):
+        send_email(row['customer_email'], 'Your product is about to expire', 'Dear Customer, ...')
+    elif row['total_price'] > 100:
+        send_email(row['customer_email'], 'Exclusive Discount Just for You', 'Dear Customer, ...')
